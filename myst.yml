@@ -1,0 +1,27 @@
+version: 1
+project:
+  title: "Web Courses Vault"
+  author: "Raul"
+  abstract: "My personal course notes and vault."
+  github: "raulcontreraso-bit/Web_Courses_Vault"
+  jupyter:
+    binder:
+      repo: "raulcontreraso-bit/Web_Courses_Vault"
+      ref: "main"
+    kernels:
+      - python3
+  toc:
+    - file: index.md
+    - file: 01_python/01_python_standar/For_loop.ipynb
+    - file: 01_python/02_pandas/dataframe.ipynb
+    - title: "Aalto SciComp Pandas Reference"
+      url: "https://aaltoscicomp.github.io/python-for-scicomp/pandas/#a-quick-pandas-preview"
+site:
+  template: book-theme
+  options:
+    baseurl: "/Web_Courses_Vault/"
+    logo: ""
+    navbar_title: "Web Courses Vault"
+    color: "#2563eb"
+  parts:
+    primary_sidebar_footer: footer.md
