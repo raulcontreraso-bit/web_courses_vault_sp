@@ -1,0 +1,70 @@
+====================================
+Course 1: Introduction to Python
+====================================
+
+Click the button below to start the interactive execution engine:
+
+.. thebe-button::
+
+Core Fundamentals
+-----------------
+
+This section introduces primary language structures.
+
+Variables and Types
+~~~~~~~~~~~~~~~~~~~
+
+Variables store data values in memory.
+
+Numeric Variables
+^^^^^^^^^^^^^^^^^
+
+Python supports integers, floats, and complex numbers.
+
+Integer Examples
+""""""""""""""""
+
+Here is an integer assignment:
+
+.. code-block:: python
+
+    number = 42
+    print("The answer is:", number)
+
+
+Float Examples
+""""""""""""""
+
+Here is a floating-point number assignment:
+
+.. code-block:: python
+
+    pi_value = 3.14159
+    print("Value of Pi:", pi_value)
+
+
+Control Flow Structures
+-----------------------
+
+Control flow alters the execution path of a script.
+
+Iterative Statements
+~~~~~~~~~~~~~~~~~~~~
+
+Iterative statements repeat a block of code.
+
+Definite Iteration
+^^^^^^^^^^^^^^^^^^
+
+Definite loops repeat a known number of times.
+
+Range Iteration
+"""""""""""""""
+
+Using ``range()`` with a for loop:
+
+.. code-block:: python
+
+    # Basic loop
+    for i in range(3):
+        print(f"Iteration {i}")
