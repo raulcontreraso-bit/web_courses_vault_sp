@@ -1,4 +1,4 @@
-# NumPy Lesson 2: Indexing and Slicing
+# NumPy Lesson 2{.md}: Indexing and Slicing
 
 Click the button below to launch the live execution engine:
 
