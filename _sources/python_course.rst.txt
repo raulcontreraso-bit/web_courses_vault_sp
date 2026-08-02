@@ -1,6 +1,5 @@
-====================================
 Course 1: Introduction to Python
-====================================
+================================
 
 Click the button below to start the interactive execution engine:
 
@@ -20,31 +19,6 @@ Try modifying and running the Python snippet below:
     print(message)
     print("The answer is:", number)
 
-
-Loop Statements
----------------
-
-Loops allow executing code repeatedly.
-
-For Loops
-~~~~~~~~~
-
-A ``for`` loop iterates over a given sequence:
-
-.. code-block:: python
-
+    # Basic loop
     for i in range(3):
         print(f"Iteration {i}")
-
-
-While Loops
-~~~~~~~~~~~
-
-A ``while`` loop continues while a condition remains True:
-
-.. code-block:: python
-
-    count = 0
-    while count < 3:
-        print(f"Count: {count}")
-        count += 1

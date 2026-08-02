@@ -3,9 +3,10 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" data-content_root="./">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Search &mdash; Web Courses Vault  documentation</title>
+  <title>NumPy Lesson 4{.md}: Indexing and Slicing &mdash; Web Courses Vault  documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
       <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css?v=8cd3d715" />
@@ -17,8 +18,7 @@
       <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
 
   
-    <link rel="canonical" href="https://raulcontreraso-bit.github.io/web_courses_vault_sp/search.html" />
-    
+    <link rel="canonical" href="https://raulcontreraso-bit.github.io/web_courses_vault_sp/python_course_04.html" />
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
       <script src="_static/documentation_options.js?v=5929fcd5"></script>
@@ -35,10 +35,10 @@
       <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = "div.highlight"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
       <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script src="_static/js/theme.js"></script>
-    <script src="_static/searchtools.js"></script>
-    <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="#" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="py Lesson 5{Jupyter Notebook Format}" href="python_course_05.html" />
+    <link rel="prev" title="Course 2: Introduction to Python" href="python_course_02.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -53,7 +53,7 @@
             Web Courses Vault
           </a>
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="#" method="get">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
@@ -61,10 +61,10 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Available Courses:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="python_course_01.html">Course 1: Introduction to Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_course_02.html">Course 2: Introduction to Python</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_course_04.html">NumPy Lesson 4{.md}: Indexing and Slicing</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">NumPy Lesson 4{.md}: Indexing and Slicing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_course_05.html">py Lesson 5{Jupyter Notebook Format}</a></li>
 <li class="toctree-l1"><a class="reference internal" href="01_python/01_python_standar/For_loop.html">Vanilla Python: For Loop</a></li>
 <li class="toctree-l1"><a class="reference internal" href="01_python/02_pandas/dataframe.html">Pandas: DataFrame Introduction</a></li>
@@ -87,8 +87,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Search</li>
+      <li class="breadcrumb-item active">NumPy Lesson 4{.md}: Indexing and Slicing</li>
       <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/raulcontreraso-bit/web_courses_vault_sp/blob/main/content/python_course_04.md" class="fa fa-github"> Edit on GitHub</a>
       </li>
   </ul>
   <hr/>
@@ -96,22 +97,37 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <noscript>
-  <div id="fallback" class="admonition warning">
-    <p class="last">
-      Please activate JavaScript to enable the search functionality.
-    </p>
-  </div>
-  </noscript>
+  <section id="numpy-lesson-4-md-indexing-and-slicing">
+<h1>NumPy Lesson 4{.md}: Indexing and Slicing<a class="headerlink" href="#numpy-lesson-4-md-indexing-and-slicing" title="Link to this heading"></a></h1>
+<p>Click the button below to launch the live execution engine:</p>
+<button title="Run code" class="thebelab-button thebe-launch-button" onclick="initThebe()">Run code</button></section>
 
-  
-  <div id="search-results">
-  
-  </div>
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "raulcontreraso-bit/web_courses_vault_sp",
+            ref: "main",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="python_course_02.html" class="btn btn-neutral float-left" title="Course 2: Introduction to Python" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="python_course_05.html" class="btn btn-neutral float-right" title="py Lesson 5{Jupyter Notebook Format}" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
 
   <hr/>
 
@@ -133,14 +149,7 @@
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-  <script>
-    jQuery(function() { Search.loadIndex("searchindex.js"); });
-  </script>
-  
-  <script id="searchindexloader"></script>
-   
-
+  </script> 
 
 </body>
 </html>
