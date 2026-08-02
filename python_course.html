@@ -37,7 +37,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Course 2: Data Wrangling with Pandas" href="pandas_course.html" />
+    <link rel="next" title="NumPy Lesson 1{rst}: Creating Arrays" href="numpy_course_01.html" />
     <link rel="prev" title="Interactive Python &amp; Data Science Vault" href="index.html" /> 
 </head>
 
@@ -64,9 +64,13 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Course 1: Introduction to Python</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#basic-variables-control-flow">Basic Variables &amp; Control Flow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#loop-statements">Loop Statements</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#for-loops">For Loops</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#while-loops">While Loops</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="pandas_course.html">Course 2: Data Wrangling with Pandas</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="numpy_course_01.html">NumPy Lesson 1{rst}: Creating Arrays</a></li>
 <li class="toctree-l1"><a class="reference internal" href="numpy_course_02.html">NumPy Lesson 2{.md}: Indexing and Slicing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="numpy_course_03.html">NumPy Lesson 3{Jupyter Notebook Format} (<code class="docutils literal notranslate"><span class="pre">numpy_course_03.ipynb</span></code>)</a></li>
@@ -110,12 +114,30 @@
 
 <span class="nb">print</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The answer is:&quot;</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span>
-
-<span class="c1"># Basic loop</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+</pre></div>
+</div>
+</section>
+<section id="loop-statements">
+<h2>Loop Statements<a class="headerlink" href="#loop-statements" title="Link to this heading"></a></h2>
+<p>Loops allow executing code repeatedly.</p>
+<section id="for-loops">
+<h3>For Loops<a class="headerlink" href="#for-loops" title="Link to this heading"></a></h3>
+<p>A <code class="docutils literal notranslate"><span class="pre">for</span></code> loop iterates over a given sequence:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Iteration </span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
+</section>
+<section id="while-loops">
+<h3>While Loops<a class="headerlink" href="#while-loops" title="Link to this heading"></a></h3>
+<p>A <code class="docutils literal notranslate"><span class="pre">while</span></code> loop continues while a condition remains True:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">count</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Count: </span><span class="si">{</span><span class="n">count</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+</pre></div>
+</div>
+</section>
 </section>
 </section>
 
@@ -143,7 +165,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="index.html" class="btn btn-neutral float-left" title="Interactive Python &amp; Data Science Vault" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="pandas_course.html" class="btn btn-neutral float-right" title="Course 2: Data Wrangling with Pandas" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="numpy_course_01.html" class="btn btn-neutral float-right" title="NumPy Lesson 1{rst}: Creating Arrays" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

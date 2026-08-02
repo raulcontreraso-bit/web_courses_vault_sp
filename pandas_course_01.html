@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NumPy Lesson 1{rst}: Creating Arrays &mdash; Web Courses Vault  documentation</title>
+  <title>Course 2: Data Wrangling with Pandas &mdash; Web Courses Vault  documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
       <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css?v=8cd3d715" />
@@ -18,7 +18,7 @@
       <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
 
   
-    <link rel="canonical" href="https://raulcontreraso-bit.github.io/web_courses_vault_sp/numpy_course_01.html" />
+    <link rel="canonical" href="https://raulcontreraso-bit.github.io/web_courses_vault_sp/pandas_course_01.html" />
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
       <script src="_static/documentation_options.js?v=5929fcd5"></script>
@@ -36,9 +36,7 @@
       <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="NumPy Lesson 2{.md}: Indexing and Slicing" href="numpy_course_02.html" />
-    <link rel="prev" title="Course 1: Introduction to Python" href="python_course.html" /> 
+    <link rel="search" title="Search" href="search.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -61,12 +59,9 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Available Courses:</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="python_course.html">Course 1: Introduction to Python</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">NumPy Lesson 1{rst}: Creating Arrays</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#basic-array-creation">Basic Array Creation</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="numpy_course_01.html">NumPy Lesson 1{rst}: Creating Arrays</a></li>
 <li class="toctree-l1"><a class="reference internal" href="numpy_course_02.html">NumPy Lesson 2{.md}: Indexing and Slicing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="numpy_course_03.html">NumPy Lesson 3{Jupyter Notebook Format} (<code class="docutils literal notranslate"><span class="pre">numpy_course_03.ipynb</span></code>)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="01_python/01_python_standar/For_loop.html">Vanilla Python: For Loop</a></li>
@@ -87,9 +82,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">NumPy Lesson 1{rst}: Creating Arrays</li>
+      <li class="breadcrumb-item active">Course 2: Data Wrangling with Pandas</li>
       <li class="wy-breadcrumbs-aside">
-              <a href="https://github.com/raulcontreraso-bit/web_courses_vault_sp/blob/main/content/numpy_course_01.rst" class="fa fa-github"> Edit on GitHub</a>
+              <a href="https://github.com/raulcontreraso-bit/web_courses_vault_sp/blob/main/content/pandas_course_01.rst" class="fa fa-github"> Edit on GitHub</a>
       </li>
   </ul>
   <hr/>
@@ -97,21 +92,21 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="numpy-lesson-1-rst-creating-arrays">
-<h1>NumPy Lesson 1{rst}: Creating Arrays<a class="headerlink" href="#numpy-lesson-1-rst-creating-arrays" title="Link to this heading"></a></h1>
-<p>Click the button below to launch the live execution engine:</p>
-<button title="Run code" class="thebelab-button thebe-launch-button" onclick="initThebe()">Run code</button><section id="basic-array-creation">
-<h2>Basic Array Creation<a class="headerlink" href="#basic-array-creation" title="Link to this heading"></a></h2>
-<p>Try running this code block to create 1D and 2D arrays:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+  <section id="course-2-data-wrangling-with-pandas">
+<h1>Course 2: Data Wrangling with Pandas<a class="headerlink" href="#course-2-data-wrangling-with-pandas" title="Link to this heading"></a></h1>
+<p>Click the button below to launch the live kernel:</p>
+<button title="Run code" class="thebelab-button thebe-launch-button" onclick="initThebe()">Run code</button><section id="analyzing-datasets-with-pandas">
+<h2>Analyzing Datasets with Pandas<a class="headerlink" href="#analyzing-datasets-with-pandas" title="Link to this heading"></a></h2>
+<p>Load and summarize a dataset in real time:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 
-<span class="c1"># Create a simple 1D array</span>
-<span class="n">arr_1d</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">])</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;1D Array:&quot;</span><span class="p">,</span> <span class="n">arr_1d</span><span class="p">)</span>
+<span class="c1"># Load Titanic sample dataset</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;https://raw.githubusercontent.com/pandas-dev/pandas/master/doc/data/titanic.csv&quot;</span>
+<span class="n">titanic</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
 
-<span class="c1"># Create a 2D matrix</span>
-<span class="n">matrix</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]])</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;2D Matrix:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">matrix</span><span class="p">)</span>
+<span class="c1"># Display basic info</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Dataset Shape:&quot;</span><span class="p">,</span> <span class="n">titanic</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="n">titanic</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
 </section>
@@ -139,10 +134,7 @@
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="python_course.html" class="btn btn-neutral float-left" title="Course 1: Introduction to Python" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="numpy_course_02.html" class="btn btn-neutral float-right" title="NumPy Lesson 2{.md}: Indexing and Slicing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-    </div>
+          <footer>
 
   <hr/>
 
