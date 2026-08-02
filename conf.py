@@ -1,28 +1,27 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
+import datetime
 
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+# Project details
+project = 'Python Interactive Courses'
+copyright = f'{datetime.date.today().year}, Course Team'
+author = 'Course Team'
 
-project = 'web_courses_vault_sp'
-copyright = '2026, Raul'
-author = 'Raul'
-release = '1.0'
+# Extensions required for interactive execution & themes
+extensions = [
+    'sphinx_lesson',
+    'sphinx_rtd_theme_ext_color_contrast',
+    'sphinx.ext.mathjax',
+    'sphinx_thebe',  # Enables the live execution button
+    'myst_parser',   # Allows writing content in Markdown (.md) in addition to .rst
+]
 
-# -- General configuration ---------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
+# Theme setup
+html_theme = 'sphinx_rtd_theme'
 
-extensions = []
+# Configure Thebe for interactive code cells
+thebe_config = {
+   "selector": "div.highlight",
+   "repository_url": "https://github.com/YOUR-USERNAME/interactive-python-courses",
+   "repository_branch": "main",
+}
 
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
-
-
-# -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
-html_theme = 'alabaster'
-html_static_path = ['_static']
+exclude_patterns = ['_build', 'venv', 'Thumbs.db', '.DS_Store']

@@ -1,0 +1,5 @@
+sphinx
+sphinx-rtd-theme
+sphinx-lesson
+sphinx-thebe
+myst-parser

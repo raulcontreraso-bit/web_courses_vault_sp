@@ -1,17 +1,11 @@
-.. web_courses_vault_sp documentation master file, created by
-   sphinx-quickstart on Sat Aug  1 23:25:46 2026.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome to Interactive Python Courses
+======================================
 
-web_courses_vault_sp documentation
-==================================
-
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
+Choose a course below to start learning interactively:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Available Courses:
 
+   pandas_course
+   python_basics
