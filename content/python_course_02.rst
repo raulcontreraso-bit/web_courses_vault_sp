@@ -1,5 +1,5 @@
 ====================================
-Course 1: Introduction to Python
+Course 2: Introduction to Python
 ====================================
 
 Click the button below to start the interactive execution engine:

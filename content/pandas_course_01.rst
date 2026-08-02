@@ -1,4 +1,4 @@
-Course 2: Data Wrangling with Pandas
+Course 1_PY: Data Wrangling with Pandas
 ====================================
 
 Click the button below to launch the live kernel:
