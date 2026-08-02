@@ -1,4 +1,4 @@
- name: Deploy Courses to GitHub Pages
+name: Deploy Courses to GitHub Pages
 
 on:
   push:
