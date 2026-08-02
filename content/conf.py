@@ -10,10 +10,10 @@ extensions = [
     'sphinx_rtd_theme_ext_color_contrast',
     'sphinx.ext.mathjax',
     'sphinx_thebe',
-    'myst_parser',  # Myst parser for Markdown support
+    'myst_parser',
 ]
 
-# Prevent suffix conflict between MyST and Sphinx 8+
+# Explicitly assign file extensions to prevent Sphinx 8 registration conflicts
 source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',
@@ -21,7 +21,7 @@ source_suffix = {
 
 html_theme = 'sphinx_rtd_theme'
 
-# Configure live code execution via MyBinder
+# Configure live execution via MyBinder
 thebe_config = {
    "selector": "div.highlight",
    "repository_url": "https://github.com/raulcontreraso-bit/web_courses_vault_sp",
