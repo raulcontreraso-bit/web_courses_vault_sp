@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Interactive Python &amp; Data Science Vault &mdash; Web Courses Vault  documentation</title>
+  <title>Course 3: Introduction to Python &mdash; Web Courses Vault  documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
       <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css?v=8cd3d715" />
@@ -18,7 +18,7 @@
       <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
 
   
-    <link rel="canonical" href="https://raulcontreraso-bit.github.io/web_courses_vault_sp/index.html" />
+    <link rel="canonical" href="https://raulcontreraso-bit.github.io/web_courses_vault_sp/python_course_03.html" />
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
       <script src="_static/documentation_options.js?v=5929fcd5"></script>
@@ -38,7 +38,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Course 1: Introduction to Python" href="python_course_01.html" /> 
+    <link rel="next" title="py Lesson 4{.md}: Indexing and Slicing" href="python_course_04.html" />
+    <link rel="prev" title="Course 2: Introduction to Python" href="python_course_02.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -49,7 +50,7 @@
 
           
           
-          <a href="#" class="icon icon-home">
+          <a href="index.html" class="icon icon-home">
             Web Courses Vault
           </a>
 <div role="search">
@@ -61,10 +62,26 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Available Courses:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="python_course_01.html">Course 1: Introduction to Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_course_02.html">Course 2: Introduction to Python</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_course_03.html">Course 3: Introduction to Python</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Course 3: Introduction to Python</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#core-fundamentals">Core Fundamentals</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#variables-and-types">Variables and Types</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#numeric-variables">Numeric Variables</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#control-flow-structures">Control Flow Structures</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#iterative-statements">Iterative Statements</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#definite-iteration">Definite Iteration</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="python_course_04.html">py Lesson 4{.md}: Indexing and Slicing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_course_05.html">Python Lesson 5: Jupyter Notebook Executable</a></li>
 <li class="toctree-l1"><a class="reference internal" href="01_python/01_python_standar/For_loop.html">Vanilla Python: For Loop</a></li>
@@ -80,17 +97,17 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">Web Courses Vault</a>
+          <a href="index.html">Web Courses Vault</a>
       </nav>
 
       <div class="wy-nav-content">
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Interactive Python &amp; Data Science Vault</li>
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Course 3: Introduction to Python</li>
       <li class="wy-breadcrumbs-aside">
-              <a href="https://github.com/raulcontreraso-bit/web_courses_vault_sp/blob/main/content/index.rst" class="fa fa-github"> Edit on GitHub</a>
+              <a href="https://github.com/raulcontreraso-bit/web_courses_vault_sp/blob/main/content/python_course_03.rst" class="fa fa-github"> Edit on GitHub</a>
       </li>
   </ul>
   <hr/>
@@ -98,69 +115,58 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="interactive-python-data-science-vault">
-<h1>Interactive Python &amp; Data Science Vault<a class="headerlink" href="#interactive-python-data-science-vault" title="Link to this heading"></a></h1>
-<p>Welcome! Select a course from the navigation menu below.</p>
-<div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Available Courses:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="python_course_01.html">Course 1: Introduction to Python</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="python_course_01.html#basic-variables-control-flow">Basic Variables &amp; Control Flow</a></li>
-<li class="toctree-l2"><a class="reference internal" href="python_course_01.html#loop-statements">Loop Statements</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="python_course_01.html#for-loops">For Loops</a></li>
-<li class="toctree-l3"><a class="reference internal" href="python_course_01.html#while-loops">While Loops</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="python_course_02.html">Course 2: Introduction to Python</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="python_course_02.html#basic-variables-control-flow">Basic Variables &amp; Control Flow</a></li>
-<li class="toctree-l2"><a class="reference internal" href="python_course_02.html#loop-statements">Loop Statements</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="python_course_02.html#for-loops">For Loops</a></li>
-<li class="toctree-l3"><a class="reference internal" href="python_course_02.html#while-loops">While Loops</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="python_course_03.html">Course 3: Introduction to Python</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="python_course_03.html#core-fundamentals">Core Fundamentals</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="python_course_03.html#variables-and-types">Variables and Types</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="python_course_03.html#numeric-variables">Numeric Variables</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="python_course_03.html#integer-examples">Integer Examples</a></li>
-<li class="toctree-l5"><a class="reference internal" href="python_course_03.html#float-examples">Float Examples</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="python_course_03.html#control-flow-structures">Control Flow Structures</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="python_course_03.html#iterative-statements">Iterative Statements</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="python_course_03.html#definite-iteration">Definite Iteration</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="python_course_03.html#range-iteration">Range Iteration</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="python_course_04.html">py Lesson 4{.md}: Indexing and Slicing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_course_05.html">Python Lesson 5: Jupyter Notebook Executable</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="python_course_05.html#summary-checklist-to-fix-everything">Summary Checklist to Fix Everything</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="01_python/01_python_standar/For_loop.html">Vanilla Python: For Loop</a></li>
-<li class="toctree-l1"><a class="reference internal" href="01_python/02_pandas/dataframe.html">Pandas: DataFrame Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="numpy_course_01.html">NumPy Lesson 1{rst}: Creating Arrays</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="numpy_course_01.html#basic-array-creation">Basic Array Creation</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="numpy_course_02.html">NumPy Lesson 2{.md}: Indexing and Slicing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="numpy_course_03.html">NumPy Lesson 3{Jupyter Notebook Format} (<code class="docutils literal notranslate"><span class="pre">numpy_course_03.ipynb</span></code>)</a></li>
-</ul>
+  <section id="course-3-introduction-to-python">
+<h1>Course 3: Introduction to Python<a class="headerlink" href="#course-3-introduction-to-python" title="Link to this heading"></a></h1>
+<p>Click the button below to start the interactive execution engine:</p>
+<button title="Run code" class="thebelab-button thebe-launch-button" onclick="initThebe()">Run code</button><section id="core-fundamentals">
+<h2>Core Fundamentals<a class="headerlink" href="#core-fundamentals" title="Link to this heading"></a></h2>
+<p>This section introduces primary language structures.</p>
+<section id="variables-and-types">
+<h3>Variables and Types<a class="headerlink" href="#variables-and-types" title="Link to this heading"></a></h3>
+<p>Variables store data values in memory.</p>
+<section id="numeric-variables">
+<h4>Numeric Variables<a class="headerlink" href="#numeric-variables" title="Link to this heading"></a></h4>
+<p>Python supports integers, floats, and complex numbers.</p>
+<section id="integer-examples">
+<h5>Integer Examples<a class="headerlink" href="#integer-examples" title="Link to this heading"></a></h5>
+<p>Here is an integer assignment:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">number</span> <span class="o">=</span> <span class="mi">42</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The answer is:&quot;</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span>
+</pre></div>
 </div>
+</section>
+<section id="float-examples">
+<h5>Float Examples<a class="headerlink" href="#float-examples" title="Link to this heading"></a></h5>
+<p>Here is a floating-point number assignment:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">pi_value</span> <span class="o">=</span> <span class="mf">3.14159</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Value of Pi:&quot;</span><span class="p">,</span> <span class="n">pi_value</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+</section>
+<section id="control-flow-structures">
+<h2>Control Flow Structures<a class="headerlink" href="#control-flow-structures" title="Link to this heading"></a></h2>
+<p>Control flow alters the execution path of a script.</p>
+<section id="iterative-statements">
+<h3>Iterative Statements<a class="headerlink" href="#iterative-statements" title="Link to this heading"></a></h3>
+<p>Iterative statements repeat a block of code.</p>
+<section id="definite-iteration">
+<h4>Definite Iteration<a class="headerlink" href="#definite-iteration" title="Link to this heading"></a></h4>
+<p>Definite loops repeat a known number of times.</p>
+<section id="range-iteration">
+<h5>Range Iteration<a class="headerlink" href="#range-iteration" title="Link to this heading"></a></h5>
+<p>Using <code class="docutils literal notranslate"><span class="pre">range()</span></code> with a for loop:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Basic loop</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Iteration </span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -186,7 +192,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="python_course_01.html" class="btn btn-neutral float-right" title="Course 1: Introduction to Python" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="python_course_02.html" class="btn btn-neutral float-left" title="Course 2: Introduction to Python" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="python_course_04.html" class="btn btn-neutral float-right" title="py Lesson 4{.md}: Indexing and Slicing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

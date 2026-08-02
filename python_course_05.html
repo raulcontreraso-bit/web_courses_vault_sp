@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Course 1_PY: {Jupyter Notebook Format} &mdash; Web Courses Vault  documentation</title>
+  <title>Python Lesson 5: Jupyter Notebook Executable &mdash; Web Courses Vault  documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
       <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css?v=8cd3d715" />
@@ -32,6 +32,7 @@
       <script>let toggleOpenOnPrint = 'true';</script>
       <script src="_static/togglebutton.js?v=b8b12719"></script>
       <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+      <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
       <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = "div.highlight"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
       <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script src="_static/js/theme.js"></script>
@@ -64,8 +65,12 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="python_course_01.html">Course 1: Introduction to Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_course_02.html">Course 2: Introduction to Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_course_03.html">Course 3: Introduction to Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_course_04.html">py Lesson 4{.md}: Indexing and Slicing</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Course 1_PY: {Jupyter Notebook Format}</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Python Lesson 5: Jupyter Notebook Executable</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#summary-checklist-to-fix-everything">Summary Checklist to Fix Everything</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="01_python/01_python_standar/For_loop.html">Vanilla Python: For Loop</a></li>
 <li class="toctree-l1"><a class="reference internal" href="01_python/02_pandas/dataframe.html">Pandas: DataFrame Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="numpy_course_01.html">NumPy Lesson 1{rst}: Creating Arrays</a></li>
@@ -87,7 +92,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Course 1_PY: {Jupyter Notebook Format}</li>
+      <li class="breadcrumb-item active">Python Lesson 5: Jupyter Notebook Executable</li>
       <li class="wy-breadcrumbs-aside">
               <a href="https://github.com/raulcontreraso-bit/web_courses_vault_sp/blob/main/content/python_course_05.ipynb" class="fa fa-github"> Edit on GitHub</a>
       </li>
@@ -97,9 +102,10 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="course-1-py-jupyter-notebook-format">
-<h1>Course 1_PY: {Jupyter Notebook Format}<a class="headerlink" href="#course-1-py-jupyter-notebook-format" title="Link to this heading"></a></h1>
-<div class="cell docutils container">
+  <section id="python-lesson-5-jupyter-notebook-executable">
+<h1>Python Lesson 5: Jupyter Notebook Executable<a class="headerlink" href="#python-lesson-5-jupyter-notebook-executable" title="Link to this heading"></a></h1>
+<p>Click the button below to launch the live execution engine:</p>
+<button title="Run code" class="thebelab-button thebe-launch-button" onclick="initThebe()">Run code</button><div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">()</span>
 </pre></div>
@@ -111,6 +117,19 @@
 </div>
 </div>
 </div>
+<ol class="arabic simple" start="3">
+<li><p>Below that Markdown cell, create standard Python <strong>Code cells</strong> containing your code (e.g., <code class="docutils literal notranslate"><span class="pre">print(&quot;Hello</span> <span class="pre">from</span> <span class="pre">Jupyter!&quot;)</span></code>).</p></li>
+</ol>
+<hr class="docutils" />
+<section id="summary-checklist-to-fix-everything">
+<h2>Summary Checklist to Fix Everything<a class="headerlink" href="#summary-checklist-to-fix-everything" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p><strong>Rename</strong> <code class="docutils literal notranslate"><span class="pre">python_course_03.srt</span></code> $\rightarrow$ <code class="docutils literal notranslate"><span class="pre">python_course_03.rst</span></code> in your file explorer.</p></li>
+<li><p><strong>Install <code class="docutils literal notranslate"><span class="pre">nbsphinx</span></code></strong> by running <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">nbsphinx</span></code> in your terminal and updating <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> and <code class="docutils literal notranslate"><span class="pre">content/conf.py</span></code>.</p></li>
+<li><p><strong>Verify folder paths</strong> in <code class="docutils literal notranslate"><span class="pre">index.rst</span></code> match your exact folder names on disk.</p></li>
+<li><p>Run <strong><code class="docutils literal notranslate"><span class="pre">build_local.bat</span></code></strong> and refresh <code class="docutils literal notranslate"><span class="pre">http://localhost:8000</span></code>. All pages—including your Jupyter Notebooks—will render and execute Python cleanly!</p></li>
+</ol>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
