@@ -5,7 +5,7 @@
    "id": "6579dd07",
    "metadata": {},
    "source": [
-    "## 3. Jupyter Notebook Format (`numpy_course_03.ipynb`)\n",
+    "## NumPy Lesson 3{Jupyter Notebook Format} (`numpy_course_03.ipynb`)\n",
     "* **Topic:** NumPy Math & Vectorized Operations\n",
     "* **Rules:** You don't type syntax tags here. You use VS Code's built-in notebook editor:\n",
     "  1. Open `numpy_course_03.ipynb` in VS Code.\n",

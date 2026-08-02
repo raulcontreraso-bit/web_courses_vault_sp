@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vanilla Python: For Loop &mdash; Web Courses Vault  documentation</title>
+  <title>&lt;no title&gt; &mdash; Web Courses Vault  documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
       <link rel="stylesheet" type="text/css" href="../../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css?v=8cd3d715" />
@@ -18,7 +18,7 @@
       <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
 
   
-    <link rel="canonical" href="https://raulcontreraso-bit.github.io/web_courses_vault_sp/01_python/01_python_standar/For_loop.html" />
+    <link rel="canonical" href="https://raulcontreraso-bit.github.io/web_courses_vault_sp/01_python/01_python_standar/functions_and_classes.html" />
       <script src="../../_static/jquery.js?v=5d32c60e"></script>
       <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
       <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
@@ -37,8 +37,8 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Pandas: DataFrame Introduction" href="../02_pandas/dataframe.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="functions_and_classes.html" /> 
+    <link rel="next" title="Vanilla Python: For Loop" href="For_loop.html" />
+    <link rel="prev" title="NumPy Lesson 3{Jupyter Notebook Format} (numpy_course_03.ipynb)" href="../../numpy_course_03.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -61,13 +61,13 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Available Courses:</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="../../python_course.html">Course 1: Introduction to Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../pandas_course.html">Course 2: Data Wrangling with Pandas</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../numpy_course_01.html">NumPy Lesson 1{rst}: Creating Arrays</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../numpy_course_02.html">NumPy Lesson 2{.md}: Indexing and Slicing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../numpy_course_03.html">NumPy Lesson 3{Jupyter Notebook Format} (<code class="docutils literal notranslate"><span class="pre">numpy_course_03.ipynb</span></code>)</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Vanilla Python: For Loop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="For_loop.html">Vanilla Python: For Loop</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../02_pandas/dataframe.html">Pandas: DataFrame Introduction</a></li>
 </ul>
 
@@ -85,9 +85,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Vanilla Python: For Loop</li>
+      <li class="breadcrumb-item active">&lt;no title&gt;</li>
       <li class="wy-breadcrumbs-aside">
-              <a href="https://github.com/raulcontreraso-bit/web_courses_vault_sp/blob/main/content/01_python/01_python_standar/For_loop.ipynb" class="fa fa-github"> Edit on GitHub</a>
+              <a href="https://github.com/raulcontreraso-bit/web_courses_vault_sp/blob/main/content/01_python/01_python_standar/functions_and_classes.md" class="fa fa-github"> Edit on GitHub</a>
       </li>
   </ul>
   <hr/>
@@ -95,29 +95,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="vanilla-python-for-loop">
-<h1>Vanilla Python: For Loop<a class="headerlink" href="#vanilla-python-for-loop" title="Link to this heading"></a></h1>
-<p>Here is a practical example of a <code class="docutils literal notranslate"><span class="pre">for</span></code> loop:</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">topics</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Variables&quot;</span><span class="p">,</span> <span class="s2">&quot;Loops&quot;</span><span class="p">,</span> <span class="s2">&quot;Functions&quot;</span><span class="p">,</span> <span class="s2">&quot;Dictionaries&quot;</span><span class="p">]</span>
-<span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">topic</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">topics</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">index</span><span class="si">}</span><span class="s2">. Learning about </span><span class="si">{</span><span class="n">topic</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Starting my learning loop:
-1. Learning about Variables
-2. Learning about Loops
-3. Learning about Functions
-4. Learning about Dictionaries
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-
+  
     <script type="text/x-thebe-config">
     {
         requestKernel: true,
@@ -141,8 +119,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="functions_and_classes.html" class="btn btn-neutral float-left" title="&lt;no title&gt;" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="../02_pandas/dataframe.html" class="btn btn-neutral float-right" title="Pandas: DataFrame Introduction" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../../numpy_course_03.html" class="btn btn-neutral float-left" title="NumPy Lesson 3{Jupyter Notebook Format} (numpy_course_03.ipynb)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="For_loop.html" class="btn btn-neutral float-right" title="Vanilla Python: For Loop" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
