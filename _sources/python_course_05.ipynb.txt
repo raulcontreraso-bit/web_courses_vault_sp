@@ -5,7 +5,7 @@
    "id": "15591820",
    "metadata": {},
    "source": [
-    "## py Lesson 5{Jupyter Notebook Format} "
+    "## Course 1_PY: {Jupyter Notebook Format} "
    ]
   },
   {
