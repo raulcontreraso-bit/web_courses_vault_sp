@@ -1,4 +1,4 @@
-name: Build and Deploy Sphinx Site
+ name: Deploy Courses to GitHub Pages
 
 on:
   push:
@@ -21,9 +21,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Build Site HTML
+      - name: Build Sphinx Documentation
         run: |
-          sphinx-build -b html . _build/html
+          sphinx-build -b html content _build/html
           touch _build/html/.nojekyll
 
       - name: Deploy to GitHub Pages
