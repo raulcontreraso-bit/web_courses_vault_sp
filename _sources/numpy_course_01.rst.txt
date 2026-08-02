@@ -1,4 +1,4 @@
-NumPy Lesson 1: Creating Arrays
+NumPy Lesson 1{rst}: Creating Arrays
 ===============================
 
 Click the button below to launch the live execution engine:
