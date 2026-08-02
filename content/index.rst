@@ -12,6 +12,7 @@ Welcome! Select a course from the navigation menu below.
    numpy_course_01
    numpy_course_02
    numpy_course_03  
+   01_python/01_python_standar/functions_and_classes
    01_python/01_python_standar/For_loop
    01_python/02_pandas/dataframe
  
