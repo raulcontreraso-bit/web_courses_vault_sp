@@ -1,9 +1,7 @@
-Welcome to Interactive Python Courses
 Interactive Python & Data Science Vault
 ========================================
 
-Welcome! Select a course from the navigation menu below to start learning.
-All code blocks can be executed live directly in your browser.
+Welcome! Select a course from the navigation menu below.
 
 .. toctree::
    :maxdepth: 2
@@ -11,3 +9,5 @@ All code blocks can be executed live directly in your browser.
 
    python_course
    pandas_course
+   01_python/01_python_standar/For_loop
+   01_python/02_pandas/dataframe
