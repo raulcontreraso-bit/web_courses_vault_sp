@@ -5,19 +5,13 @@ copyright = f'{datetime.date.today().year}, Raul Contreras'
 author = 'Raul Contreras'
 
 # Core Extensions
+# Note: sphinx_lesson automatically includes myst_parser internally
 extensions = [
     'sphinx_lesson',
     'sphinx_rtd_theme_ext_color_contrast',
     'sphinx.ext.mathjax',
     'sphinx_thebe',
-    'myst_parser',
 ]
-
-# Explicitly assign file extensions to prevent Sphinx 8 registration conflicts
-source_suffix = {
-    '.rst': 'restructuredtext',
-    '.md': 'markdown',
-}
 
 html_theme = 'sphinx_rtd_theme'
 
