@@ -1,4 +1,4 @@
-# py Lesson 4{.md}: Indexing and Slicing
+# Course 3: Introduction to Python{.md}: Indexing and Slicing
 
 Click the button below to launch the live execution engine:
 
