@@ -3,3 +3,4 @@ sphinx-rtd-theme
 sphinx-lesson
 sphinx-thebe
 myst-parser
+nbsphinx

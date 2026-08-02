@@ -12,6 +12,7 @@ extensions = [
     'sphinx_rtd_theme_ext_color_contrast',
     'sphinx.ext.mathjax',
     'sphinx_thebe',
+    'nbsphinx',  # Enables rendering Jupyter Notebooks
 ]
 
 # Theme & GitHub Pages URL Configuration
